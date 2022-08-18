@@ -1,0 +1,44 @@
+div.bc-container {
+    .x16,
+    .x24,
+    .x32,
+    .x48,
+    .x64,
+    .x96,
+    .x128 {
+        font-weight: 400;
+
+        &.icon-bold {
+            font-weight: 700;
+        }
+    }
+
+    .x16 {
+        font-size: 1.6rem;
+    }
+
+    .x24 {
+        font-size: 2.4rem;
+    }
+
+    .x32 {
+        font-size: 3.2rem;
+    }
+
+    .x48 {
+        font-size: 4.8rem;
+    }
+
+    .x64 {
+        font-size: 6.4rem;
+    }
+
+    .x96 {
+        font-size: 9.6rem;
+    }
+
+    .x128 {
+        font-size: 12.8rem;
+    }
+
+}

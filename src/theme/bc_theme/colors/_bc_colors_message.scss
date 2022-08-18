@@ -1,0 +1,81 @@
+div.bc-container {
+
+    .success-light {
+        color: $success-1;
+    }
+    .bg-success-light {
+        background-color: $success-1;
+    }
+    .info-light {
+        color: $information-1;
+    }
+    .bg-info-light {
+        background-color: $information-1;
+    }
+    .warning-light {
+        color: $warning-1;
+    }
+    .bg-warning-light {
+        background-color: $warning-1;
+    }
+    .danger-light {
+        color: $error-1;
+    }
+    .bg-danger-light {
+        background-color: $error-1;
+    }
+
+
+
+    .success {
+        color: $success-2;
+    }
+    .bg-success {
+        background-color: $success-2;
+    }
+    .info {
+        color: $information-2;
+    }
+    .bg-info {
+        background-color: $information-2;
+    }
+    .warning {
+        color: $warning-2;
+    }
+    .bg-warning {
+        background-color: $warning-2;
+    }
+    .danger {
+        color: $error-2;
+    }
+    .bg-danger {
+        background-color: $error-2;
+    }
+
+    
+
+    .success-dark {
+        color: $success-3
+    }
+    .bg-success-dark {
+        background-color: $success-3
+    }
+    .info-dark {
+        color: $information-3;
+    }
+    .bg-info-dark {
+        background-color: $information-3;
+    }
+    .warning-dark {
+        color: $warning-3
+    }
+    .bg-warning-dark {
+        background-color: $warning-3;
+    }
+    .danger-dark {
+        color: $error-3
+    }
+    .bg-danger-dark {
+        background-color: $error-3;
+    }
+}

@@ -1,0 +1,31 @@
+// @import './bc_reset'; //el reset actual afecta al carousel de tarjetas
+@import './bc_colors';
+@import './bc_reset';
+
+@import './bc_header';
+@import './bc_paragraph';
+@import './bc_list';
+
+@import './bc_text_align';
+@import './bc_colors_text';
+@import './bc_icons';
+@import './bc_buttons';
+
+
+body,
+html {
+    font-size: 10px;
+    color: $black;
+}
+
+.container-fliud {
+    max-width: 1440px;
+}
+
+@media (max-width:480px) {
+    .container-fluid,
+    .container {
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+}

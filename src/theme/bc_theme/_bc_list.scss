@@ -1,0 +1,29 @@
+div.bc-container {
+    ul.check-list {
+        list-style: none;
+        list-style-image: url('/assets/images/design/check-circle-blue.svg');
+        padding-left: 24px;
+        font-size: 1.4rem;
+        line-height: 2.4rem;
+        li {
+            
+            &::marker {
+                font-size: 240%;
+            }
+
+            ul {
+                margin: 1.5rem;
+                list-style: circle;
+            }
+        }
+    }
+}
+
+@media (max-width:1440px) {
+}
+
+@media (max-width:1024px) {
+}
+
+@media (max-width:480px) {
+}

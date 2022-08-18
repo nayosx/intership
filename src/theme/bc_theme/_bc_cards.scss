@@ -1,0 +1,21 @@
+div.bc-container {
+    div.bc-card-wrapper { // usado para centrar cards, no trabaja en carousel
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+    
+    div.bc-card { //usado para cualquier tipo de cards, se necesita de clases extras para generar un resultado esperado
+        background-color: $white;
+        box-shadow: 0px 8px 28px rgba(120, 177, 181, 0.1);
+        border-radius: 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: stretch; //cubre todo el contenedor padre
+        height: 100%; // se combina con el contenedor padre
+        gap: 15px;
+    }
+}

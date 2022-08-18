@@ -1,0 +1,308 @@
+a.btn,
+button.btn {
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.4rem;
+    font-weight: 600;
+    min-width: 160px;
+    height: 36px;
+    padding: 0 15px;
+
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    &.btn-primary,
+    &.btn-primary-blue,
+    &.btn-secondary,
+    &.btn-gold,
+    &.btn-business,
+    &.btn-oro {
+        border-radius: 10px;
+        border: 2px solid transparent;
+
+        &.btn-auto {
+            width: auto;
+            padding: 0;
+            min-width: initial;
+        }
+    }
+
+    &.btn-primary {
+        background: $yellow-20;
+        color: $blue-00;
+        &:hover {
+            background: $yellow-30;
+        }
+
+        &:focus {
+            background: $yellow-30;
+            border: 2px solid $yellow-10;
+        }
+
+        &.disabled {
+            background: $light-20;
+            border: 2px solid $light-20;
+        }
+    }
+
+    &.btn-primary-blue {
+        background-color: $blue-00;
+        color: $white;
+
+        &:hover {
+            background: $blue-20;
+        }
+
+        &:focus {
+            background: $blue-30;
+            border: 2px solid $blue-00;
+        }
+        &.disabled {
+            color: $blue-00;
+            background: $light-20;
+            border: 2px solid $light-20;
+        }
+    }
+
+    &.btn-secondary {
+        background-color: $white;
+        color: $blue-00;
+        border: 1px solid $blue-00;
+
+        &:hover {
+            color: $blue-30;
+            border: 1px solid $blue-30;
+        }
+
+        &:focus {
+            color: $blue-00;
+            background-color: $blue-40;
+            border: 1px solid $blue-00;
+        }
+        &.disabled {
+            color: $gray-40;
+            background-color: $white;
+            border: 1px solid $gray-40;
+        }
+    }
+
+    &.btn-text {
+        background-color: transparent;
+        color: $blue-20;
+        border: 0;
+
+        &:hover {
+            color: $gray-40;
+        }
+
+        &:focus {
+            color: $blue-00;
+        }
+        &.disabled {
+            color: $gray-30;
+        }
+
+        &.btn-simple {
+            height: auto;
+            border: 0;
+            padding: 0;
+            min-width: initial;
+        }
+
+        &.bg-yellow-contrast {
+            color: $blue-20;
+
+            &:hover {
+                color: $white;
+            }
+
+            &:focus {
+                color: $blue-00;
+            }
+            &.disabled {
+                color: $gold-00;
+            }
+        }
+
+        &.bg-blue-contrast {
+            color: $blue-30;
+
+            &:hover {
+                color: $blue-40;
+            }
+
+            &:focus {
+                color: $white;
+            }
+            &.disabled {
+                color: $blue-10;
+            }
+        }
+
+        &.bg-gray-contrast {
+            color: $blue-30;
+
+            &:hover {
+                color: $gray-40;
+            }
+
+            &:focus {
+                color: $blue-00;
+            }
+            &.disabled {
+                color: $white;
+            }
+        }
+
+        &.bg-img-contrast {
+            color: $yellow-20;
+
+            &:hover {
+                color: $yellow-30;
+            }
+
+            &:focus {
+                color: $yellow-10;
+            }
+            &.disabled {
+                color: $gray-40;
+            }
+        }
+
+        &.bg-gray-dark-contrast {
+            color: $blue-30;
+
+            &:hover {
+                color: $blue-40;
+            }
+
+            &:focus {
+                color: $white;
+            }
+            &.disabled {
+                color: $gray-40;
+            }
+        }
+
+        &.bg-bluelight-contrast {
+            color: $white;
+
+            &:hover {
+                color: $blue-10;
+            }
+
+            &:focus {
+                color: $blue-00;
+            }
+            &.disabled {
+                color: $gray-50;
+            }
+        }
+
+        &.bg-cusca-oro-contrast {
+            color: $white;
+
+            &:hover {
+                color: $gold-20;
+            }
+
+            &:focus {
+                color: $black;
+            }
+            &.disabled {
+                color: $gray-40;
+            }
+        }
+
+        &.bg-white-cusca-oro-contrast {
+            color: $gold-00;
+            &:hover {
+                color: $gold-30;
+            }
+
+            &:focus {
+                color: $gray-50;
+            }
+            &.disabled {
+                color: $gray-40;
+            }
+        }
+
+    }
+
+    &.btn-gold {
+        background: $gold-30;
+
+        &:hover {
+            background: $gold-20;
+        }
+
+        &:focus {
+            background: $gold-20;
+            border: 2px solid $gold-10;
+        }
+
+        &.disabled {
+            color: $blue-30;
+            background: $yellow-40;
+        }
+    }
+
+    &.btn-business {
+        background-color: $gold-10;
+        color: $blue-00;
+        &:hover {
+            background: $gold-20;
+        }
+
+        &:focus {
+            background: $gold-20;
+            border: 2px solid $gold-10;
+        }
+
+        &.disabled {
+            color: $blue-30;
+            background: $yellow-40;
+        }
+    }
+    &.btn-cuscatlan-oro {
+        background-color: $gold-20;
+        color: $black;
+
+        &:hover {
+            background: $gold-10;
+        }
+
+        &:focus {
+            background: $gold-10;
+            border: 2px solid $gold-20;
+        }
+
+        &.disabled {
+            color: $blue-30;
+            background: $yellow-40;
+        }
+    }
+
+
+}
+
+a.btn {
+    line-height: 36px; // el mismo tamaño 
+}
+
+a._link,
+a.link {
+    color: $blue-00;
+    font-size: 1.4rem;
+    text-decoration: underline;
+
+    &:hover {
+        color: $gray-40;
+    }
+}
+
+a.link {
+    text-decoration: none;
+}

@@ -1,0 +1,127 @@
+div.bc-container {
+    h1,
+    h1.bc-title,
+    h1.v1,
+    h1.v2,
+    h1.v3,
+    h2,
+    h2.bc-title,
+    h3,
+    h3.bc-title,
+    h4,
+    h4.bc-title,
+    h6,
+    h6.bc-title {
+        font-weight: 700;
+        color: $blue-00;
+    }
+
+    h1, 
+    h1.bc-title, 
+    h1.v1 {
+        font-size: 5.5rem;
+        line-height: 65px;
+    }
+
+    h1.v2 {
+        font-size: 4.6rem;
+        line-height: 56px;
+    }
+    h1.v3 {
+        font-size: 2.6rem;
+        line-height: 36px;
+    }
+
+
+    h2, h2.bc-title {
+        font-size: 4rem;
+        line-height: 50px;
+    }
+
+    h3, h3.bc-title {
+        font-size: 3.6rem;
+        line-height: 46px;
+    }
+
+    h4, h4.bc-title {
+        font-size: 2.4rem;
+        line-height: 34px;
+    }
+
+    h5, h5.bc-title {
+        font-size: 2.4rem;
+        font-weight: 500;
+        line-height: 34px;
+    }
+
+    h6, h6.bc-title {
+        font-size: 1.6rem;
+        line-height: 26px;
+    }
+}
+
+@media (max-width:1366px) {
+    div.bc-container {
+        h1, h1.bc-title, h1.v1 {
+            font-size: 4rem;
+            line-height: 50px;
+        }
+        h1.v2 {
+            font-size: 3.4rem;
+            line-height: 44px;
+        }
+        h1.v3 {
+            font-size: 2.3rem;
+            line-height: 33px;
+        }
+
+        h2, h2.bc-title {
+            font-size: 3.2rem;
+            line-height: 42px;
+        }
+
+        h3, h3.bc-title {
+            font-size: 2.4rem;
+            line-height: 34px;
+        }
+
+        h4, h4.bc-title,
+        h5, h5.bc-title {
+            font-size: 2.1rem;
+            line-height: 31px;
+        }
+    }
+}
+
+@media (max-width:1024px) {
+    div.bc-container {
+        h1, h1.bc-title, h1.v1 {
+            font-size: 3rem;
+            line-height: 40px;
+        }
+        h1.v2 {
+            font-size: 2.8rem;
+            line-height: 38px;
+        }
+        h1.v3 {
+            font-size: 2rem;
+            line-height: 30px;
+        }
+
+        h2, h2.bc-title {
+            font-size: 2.6rem;
+            line-height: 36px;
+        }
+
+        h3, h3.bc-title {
+            font-size: 2.1rem;
+            line-height: 31px;
+        }
+
+        h4, h4.bc-title,
+        h5, h5.bc-title {
+            font-size: 1.8rem;
+            line-height: 28px;
+        }
+    }
+}

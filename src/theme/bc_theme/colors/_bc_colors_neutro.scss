@@ -1,0 +1,61 @@
+div.bc-container {
+    .white {
+        color: $white;
+    }
+    .bg-white {
+        background-color: $white;
+    }
+
+    .gray-10,
+    .light-10 {
+        color: $light-10;
+    }
+    .bg-gray-10,
+    .bg-light-10 {
+        background-color: $light-10;
+    }
+
+    .gray-20,
+    .light-20 {
+        color: $light-20;
+    }
+    .bg-gray-20,
+    .bg-light-20 {
+        background-color: $light-20;
+    }
+
+    .gray,
+    .gray-30 {
+        color: $gray-30;
+    }
+    .bg-gray-30,
+    .bg-gray {
+        background-color: $gray-30;
+    }
+
+    .text-gray,
+    .gray-40 {
+        color: $gray-40;
+    }
+    .bg-gray-40 {
+        background-color: $gray-40;
+    }
+
+    .dark-50,
+    .gray-50 {
+        color: $gray-50;
+    }
+    .bg-dark-50,
+    .bg-gray-50 {
+        background-color: $gray-50;
+    }
+
+    .dark-60,
+    .black {
+        color: $black;
+    }
+    .bg-dark-60,
+    .bg-black {
+        background-color: $black;
+    }
+}
