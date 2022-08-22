@@ -7,4 +7,14 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'intership';
+
+
+
+  public isShowMessage:boolean = false;
+
+  public handlerBtn():void {
+    console.log("hola mundo");
+
+    this.isShowMessage = !this.isShowMessage;
+  }
 }
