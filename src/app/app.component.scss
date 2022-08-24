@@ -20,6 +20,8 @@ div.flex-container {
     div.flex-container {
         align-items: center;
         justify-content: center;
+        width: 100%;
+        height: 500px;
         h6.h6-inventado {
             color: rgb(47, 157, 173);
         }
@@ -29,7 +31,6 @@ div.flex-container {
 @media (max-width:480px) {
     div.flex-container { 
         width: 100%;
-        margin: 15px;
         align-items: flex-end;
         justify-content: flex-end;
         h6.h6-inventado {
