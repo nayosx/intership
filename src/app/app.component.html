@@ -10,8 +10,16 @@
     <button class="btn btn-primary" (click)="handlerBtn()">Accion</button>
   </div>
 
-  <h6 class="bg-danger-light danger" *ngIf="isShowMessage">
+  <h6 class="bg-danger-light danger mt-1 mb-4" [ngClass]="{'bg-danger-dark': isShowMessage}">
     Mostrar Mensaje
   </h6>
 
 </div>
+
+<ng-container *ngIf="listaDeArchivos.length">
+  <div class="bc-container" *ngFor="let item of listaDeArchivos">
+    <h4>{{item.nombre}}</h4>
+    <img [src]="item.url" />
+  </div>
+</ng-container>
+
