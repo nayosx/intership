@@ -1,0 +1,15 @@
+<div class="bc-container">
+    <div class="bg-danger" *ngIf="arregloDeArchivosPDFs.length == 0">
+        <h4 class="white">No hay archivos</h4>
+    </div>
+    <ng-container *ngIf="arregloDeArchivosPDFs.length > 0">
+
+        <div class="contenedor-pdfs" *ngFor="let item of arregloDeArchivosPDFs">
+            <p>nombre archivo: {{item.nombre}}</p>
+            <p>enlace: <a [href]="item.url" target="_blank">descargar</a></p>
+        </div>
+
+    </ng-container>
+
+    
+</div>

@@ -3,7 +3,8 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  multimedia: 'https://dsf4amlss2x9u.cloudfront.net/assets'
 };
 
 /*
